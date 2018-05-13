@@ -22,7 +22,7 @@
                 <div class="collapse navbar-collapse" id="collapsable">
                     <ul class="navbar-nav">
                         <li class="nav-item px-2">
-                            <a href="dashbord.html" class="nav-link active">Dashbord</a>
+                            <a href="dashbord.html" class="nav-link">Dashbord</a>
                         </li>
                         <li class="nav-item px-2">
                             <a href="posts.html" class="nav-link">Posts</a>
@@ -62,8 +62,7 @@
                 <div class="row">
                     <div class="col-md-6">
                         <h1 class="m-0 p-0">
-                            <i class="fa fa-tachometer-alt"></i>
-                            Dashbord
+                            Post title
                         </h1>
                     </div>
                 </div>
@@ -75,20 +74,19 @@
             <div class="container py-3">
                 <div class="row">
                     <div class="col-md-3">
-                        <a href="#" class="btn btn-primary btn-block py-2 my-2" data-toggle="modal" data-target="#post-modal">
-                            <i class="fa fa-plus mr-1"></i>Add Post
+                        <a href="dashbord.html" class="btn btn-light btn-block py-2 my-2">
+                            <i class="fas fa-caret-left mr-3"></i>Back to dashbord
+                        </a>
+                    </div>
+                    <div class="col-md-3"></div>
+                    <div class="col-md-3">
+                        <a href="#" class="btn btn-success btn-block py-2 my-2">
+                            <i class="fas fa-save mr-3"></i>Save changes
                         </a>
                     </div>
                     <div class="col-md-3">
-                        <a href="#" class="btn btn-success btn-block py-2 my-2" data-toggle="modal" data-target="#category-modal">
-                            <i class="fa fa-plus mr-1"></i>
-                            Add Category
-                        </a>
-                    </div>
-                    <div class="col-md-3">
-                        <a href="#" class="btn btn-warning btn-block py-2 my-2 text-white" data-toggle="modal" data-target="#user-modal">
-                            <i class="fa fa-plus mr-1"></i>
-                            Add User
+                        <a href="#" class="btn btn-danger btn-block py-2 my-2">
+                            <i class="fas fa-trash mr-3"></i>Delete post
                         </a>
                     </div>
                 </div>
@@ -99,116 +97,41 @@
         <section id="body">
             <div class="container py-4">
                 <div class="row">
-                    <div class="col-md-9">
+                    <div class="col">
                         <div class="card">
                             <div class="card-header">
-                                <h4>Latest posts</h4>
+                                <h4>Edit Post</h4>
                             </div>
-                            <table class="table table-striped">
-                                <thead class="thead-dark">
-                                    <tr>
-                                        <th scope="col">#</th>
-                                        <th scope="col">Title</th>
-                                        <th scope="col">Category</th>
-                                        <th scope="col">Date posted</th>
-                                        <th scope="col"></th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td scope="row">1</td>
-                                        <td>Lorem ipsum</td>
-                                        <td>dolor</td>
-                                        <td>May 21, 2018</td>
-                                        <td class="text-center">
-                                            <a href="details.html" class="btn btn-secondary">
-                                                <i class="fa fa-search"></i>
-                                                Details
-                                            </a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td scope="row">2</td>
-                                        <td>Lorem ipsum</td>
-                                        <td>dolor</td>
-                                        <td>May 21, 2018</td>
-                                        <td class="text-center">
-                                            <a href="details.html" class="btn btn-secondary">
-                                                <i class="fa fa-search"></i>
-                                                Details
-                                            </a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td scope="row">3</td>
-                                        <td>Lorem ipsum</td>
-                                        <td>dolor</td>
-                                        <td>May 21, 2018</td>
-                                        <td class="text-center">
-                                            <a href="details.html" class="btn btn-secondary">
-                                                <i class="fa fa-search"></i>
-                                                Details
-                                            </a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td scope="row">4</td>
-                                        <td>Lorem ipsum</td>
-                                        <td>dolor</td>
-                                        <td>May 21, 2018</td>
-                                        <td class="text-center">
-                                            <a href="details.html" class="btn btn-secondary">
-                                                <i class="fa fa-search"></i>
-                                                Details
-                                            </a>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td scope="row">5</td>
-                                        <td>Lorem ipsum</td>
-                                        <td>dolor</td>
-                                        <td>May 21, 2018</td>
-                                        <td class="text-center">
-                                            <a href="details.html" class="btn btn-secondary">
-                                                <i class="fa fa-search"></i>
-                                                Details
-                                            </a>
-                                        </td>
-                                    </tr>
-                                </tbody>
-                            </table>
-
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card bg-primary text-center text-white mb-2">
                             <div class="card-body">
-                                <h3>Posts</h3>
-                                <h1 class="display-4 mb-3">
-                                    <i class="fa fa-pencil-alt"></i>
-                                    5
-                                </h1>
-                                <a href="posts.html" class="btn btn-outline-light px-3">View</a>
-                            </div>
-                        </div>
-                        <div class="card bg-success text-center text-white my-2">
-                            <div class="card-body">
-                                <h3>Categories</h3>
-                                <h1 class="display-4 mb-3">
-                                    <i class="fa fa-folder-open"></i>
-                                    3
-                                </h1>
-                                <a href="categories.html" class="btn btn-outline-light px-3">View</a>
-                            </div>
-                        </div>
-                        <div class="card bg-warning text-center text-white my-2">
-                            <div class="card-body">
-                                <h3>Users</h3>
-                                <h1 class="display-4 mb-3">
-                                    <i class="fa fa-user"></i>
-                                    304
-                                </h1>
-                                <a href="users.html" class="btn btn-outline-light px-3">View</a>
+                                <form>
+                                    <div class="form-group">
+                                        <label for="title">Title</label>
+                                        <input type="text" class="form-control" id="title" value="Post title">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="category">Category</label>
+                                        <select class="form-control" id="category">
+                                            <option value="">Category 1</option>
+                                            <option value="" selected>Category 2</option>
+                                            <option value="">Category 3</option>
+                                            <option value="">Category 4</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="title">Title</label>
+                                        <input type="text" class="form-control" id="title" value="Post title">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="image">Image</label>
+                                        <input type="file" class="form-control" id="image">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="form-body">
+                                            Body
+                                        </label>
+                                        <textarea name="cke" type="text" id="form-body" class="form-control">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum magnam dolore eum quidem doloribus debitis, dicta expedita assumenda dolores adipisci, nostrum magni aspernatur commodi nisi in voluptatibus esse laboriosam quod. Quasi adipisci quod, veniam ea, aspernatur maxime. Animi totam nesciunt molestiae corporis saepe reprehenderit voluptates numquam illum accusamus vero excepturi non delectus obcaecati in officia sed, quas neque, facere fuga nobis accusantium? Vero nisi numquam accusamus ipsam porro atque aspernatur excepturi, illo aliquid rem, possimus sunt quas. Quia iusto minus nostrum ducimus at, quo molestias libero enim. Officia iure odio quis nihil cupiditate, quaerat itaque reiciendis rerum accusamus consequatur ut, voluptatum ad id provident repellendus sapiente non aspernatur iste. Tenetur dicta placeat illum. Exercitationem fugit saepe, vel libero numquam veritatis adipisci excepturi mollitia deserunt nisi similique praesentium explicabo iste repellendus, aliquam earum, esse quam. Expedita inventore suscipit, officiis, rerum enim blanditiis adipisci molestias nemo ex. Quo, tenetur enim ullam. Qui accusantium quod, sit quos quam exercitationem quaerat. Vitae illo ratione expedita, in, error nesciunt neque. Ea omnis suscipit possimus vel? Dolor ut dicta alias suscipit molestias repellat, hic ratione. Odit adipisci ipsam dolor, minima quos esse cum ipsa, accusantium repudiandae doloribus eaque facilis ducimus aliquam distinctio voluptatibus debitis nostrum placeat recusandae amet. Assumenda quae facere magnam impedit officiis sint! Perferendis illum totam eius accusamus molestiae sint eaque consequatur labore accusantium, vero quisquam amet atque quis neque, nobis saepe doloribus eos nam expedita vel tempore voluptas aperiam. Perferendis itaque aliquam optio nemo laboriosam suscipit, ex qui, temporibus fugit saepe iste autem quasi vero adipisci quaerat minus placeat quod nostrum natus labore reiciendis porro commodi eaque in delectus. Esse consequatur, eos qui quod nam nobis itaque, placeat molestiae atque soluta hic corporis magni, nihil adipisci eaque beatae laudantium aliquid rem commodi quos accusantium exercitationem quae! Magnam voluptate earum itaque tempore, magni rerum!</textarea>
+                                    </div>
+                                </form>
                             </div>
                         </div>
                     </div>
